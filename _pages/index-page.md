@@ -7,7 +7,7 @@ description: "Professional Hair Stylist | Clayton’s talent, creativity, and
 section:
   - alt: Man holding scissors
     cta:
-      link: tel:1-860-257-8353
+      link: "tel: 860-805-2335"
       title: Call to Book Appointment
     headline: Clayton W. Behrmann
     heroimage: assets/images/hand-hero.png
