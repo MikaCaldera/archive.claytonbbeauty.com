@@ -4,11 +4,11 @@
   <ul class="nav justify-content-center">
       {% if site.data.navigation.footer %}
         {% for item in site.data.navigation.footer %}
-        {% if item.title %}
+      {% if item.title %}
 
-          <li class="nav-item{% if item.link == page.link %} active{% endif %}">
-            <a class="nav-link" href="{{ item.link }}">{{ item.title | escape }}</a>
-          </li>
+      <li class="nav-item{% if item.link == page.link %} active{% endif %}">
+        <a class="nav-link" href="{{ item.link }}">{{ item.title | escape }}</a>
+      </li>
 
         {% endif %}
       {% endfor %}
